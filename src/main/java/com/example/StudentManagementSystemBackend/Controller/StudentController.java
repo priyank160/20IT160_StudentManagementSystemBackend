@@ -8,7 +8,7 @@ import java.util.List;
 
 
 @RestController
-@CrossOrigin(origins="https://app-dummy123.herokuapp.com")
+@CrossOrigin(origins="http://localhost:3000")
 public class StudentController {
 
     @Autowired
